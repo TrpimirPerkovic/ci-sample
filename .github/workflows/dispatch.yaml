@@ -23,5 +23,16 @@ jobs:
       run: echo "$GITHUB_CONTEXT"
 
     - name: List Directory Content
-      run:  ls -al
-        
+      run: ls -al
+
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: List Enviromental Content
+      run: ls -env
+
+    - name: List Directory Content
+      run: ls -al
+
+    - name: List Processes
+      run: ps aux
