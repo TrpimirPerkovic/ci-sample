@@ -23,5 +23,5 @@ jobs:
       run: echo "$GITHUB_CONTEXT"
 
     - name: List Directory Content
-      run: ${{ ls -al}}
+      run:  ls -al
         
