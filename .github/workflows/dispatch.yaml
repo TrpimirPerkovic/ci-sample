@@ -13,5 +13,5 @@ jobs:
     - name: Enviroment Variables
       env:
         CURRENT_DATE: '2024-10-26'
-      run: echo 'CURRENT_DATE'
+      run: echo '$CURRENT_DATE'
 
