@@ -28,11 +28,11 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v4
 
+    - name: List Repository Content
+      run: ls -al
+    
     - name: List Enviromental Content
       run: env
-
-    - name: List Directory Content
-      run: ls -al
 
     - name: List Processes
       run: ps aux
